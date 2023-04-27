@@ -1,0 +1,16 @@
+{
+  "name": "teste-banco-dados",
+  "version": "1.0.0",
+  "description": "Teste Banco de Dados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index 'mongodb+srv://samuel201766:Miguel_02@cluster0.wxmczgk.mongodb.net/tarefasDB?retryWrites=true&w=majority'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.3",
+    "mongoose": "^6.2.7"
+  }
+}
